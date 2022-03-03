@@ -1,0 +1,35 @@
+.button-container {
+    display: flex;
+    margin: 1px;
+    button {
+        font-size: 24px;
+        padding-left: 13px;
+        padding-right: 10px;
+        border-radius: 10px;
+        background-color: rgb(3, 15, 15);
+        color: white;
+        min-width: 43px;
+        padding: 6px 6px 6px 6px;
+    }
+    .activeLetter {
+        background-color: rgb(230, 255, 6) !important;
+        color:rgb(3, 15, 15) !important;
+    }
+    .inactive {
+        background-color: rgb(138, 138, 138) !important;
+    }
+}
+
+.keyboard-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 480px) {
+    .button-container button {
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+        min-width: 35px;
+    }
+}

@@ -1,0 +1,39 @@
+.hero-popup-background {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #676767b8;
+    z-index: 5000;
+}
+
+.hero-popup-content {
+    background-color: #c5bebe;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+}
+
+.hero-popup-title,
+.hero-popup-message {
+    margin: 0 0 8px 0;
+}
+
+.hero-popup-buttons button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 34);
+    font-weight: 900;
+}
+
+.intructions {
+    width: 400px; 
+    height: 400px;
+}
+@media (max-width: 480px) {
+    .intructions {
+        width: 300px; 
+        height: 300px;
+    }
+}
